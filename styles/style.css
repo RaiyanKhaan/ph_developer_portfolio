@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans&family=Rowdies:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/* Header Part : Logo, NavBar */
+.text-primary {
+  font-family: "Kaushan Script", cursive;
+  color: #fd6e0a;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+.logo {
+  font-family: "Kaushan Script", cursive;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+}
+.btn-primary {
+  /* For Button */
+  height: 64px;
+  background: #dc6e29;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  padding: 18px 35px;
+
+  /* For Font */
+  font-weight: 700;
+  font-size: 20px;
+}
+.nav-bar ul li {
+  list-style: none;
+  height: 27px;
+  width: 189px;
+  left: 980px;
+  top: 68px;
+  border-radius: nullpx;
+}
+/* Banner */
+.banner {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.banner h1 {
+  font-family: "Rowdies", cursive;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 116px;
+}
+.banner h2 {
+  width: 177px;
+  height: 61px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 61px;
+  color: #474747;
+}
+.banner p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+}
+.banner img {
+    width: 584px;
+    height: 676px;
+    margin-left: 978px;
+    margin-top: 161px;
+}
+.box-1 {
+  width: 585px;
+  height: 356px;
+  margin-left: 200px;
+  margin-top: 297px;
+}
